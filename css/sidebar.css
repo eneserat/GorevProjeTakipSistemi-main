@@ -1,0 +1,78 @@
+.sidebar {
+    width: 200px;
+    background-color: white;
+    padding: 20px;
+    border-right: 2px solid #ccc;
+    transition: all 0.3s ease;
+}
+
+.sidebar h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.dropdown {
+    margin-bottom: 10px;
+}
+
+.dropdown-menu {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+    opacity: 0;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.dropdown.active .dropdown-menu {
+    max-height: 200px;
+    opacity: 1;
+}
+
+.dropdown > a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    transition: background 0.2s;
+    cursor: pointer;
+}
+
+.dropdown i.fa-chevron-right {
+    transition: transform 0.3s ease;
+}
+
+.dropdown.active i.fa-chevron-right {
+    transform: rotate(90deg);
+}
+
+.dropdown > a:hover {
+    background: #f2f2f2;
+    border-radius: 6px;
+}
+.dropdown-menu {
+    display: none;
+    flex-direction: column;
+    margin-left: 20px;
+    padding-top: 5px;
+}
+
+.dropdown-menu a {
+    font-size: 16px;
+    padding: 6px 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.dropdown-menu a:hover {
+    background: #efefef;
+    border-radius: 4px;
+}
+
+.dropdown.active .dropdown-menu {
+    display: flex;
+}

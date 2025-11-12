@@ -1,0 +1,4 @@
+Kullanıcı Adı	Şifre	Rol
+admin	        123456	Admin (1)
+mehmet	        abc123	Kullanıcı (0)
+ayse	        789456	Kullanıcı (0)

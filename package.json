@@ -1,0 +1,24 @@
+{
+  "name": "staj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SalihAldal/GorevProjeTakipSistemi"
+  },
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mime-types": "^3.0.1",
+    "multer": "^2.0.2",
+    "mysql2": "^3.14.3",
+    "socket.io": "^4.8.1"
+  }
+}

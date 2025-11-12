@@ -1,0 +1,14 @@
+{
+  "require": {
+    "php": "^8.0",
+    "google/apiclient": "^2.17",
+    "google/auth": "^1.36",
+    "guzzlehttp/guzzle": "^7.9",
+    "guzzlehttp/psr7": "^2.6",
+    "http-interop/http-factory-guzzle": "^1.2",
+    "ext-json": "*",
+    "ext-curl": "*",
+    "ext-openssl": "*",
+    "ext-mbstring": "*"
+  }
+}
